@@ -1,0 +1,143 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #696969;
+  font-size: 1em;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  line-height: 60px;
+  font-size: 60px;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+h4 {
+  text-align: center;
+  color: #696969;
+  line-height: 20px;
+  font-size: 20px;
+  font-style: bold;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+.topnav {
+  text-align: center;
+  color: #696969;
+  line-height: 15px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 40px;
+}
+
+a {
+  color: #2F4F4F;
+  font-weight: bold;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 47px;
+}
+
+.linebreak {
+  text-align: center;
+  background-color: #333;
+  overflow: hidden;
+  line-height: 15px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  height: 20px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a.active {
+  color: #799280;
+}
+
+.welcome {
+  text-align: center;
+  color: #696969;
+  line-height: 20px;
+  font-size: 20px;
+  font-style: bold;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+}
+
+.profile {
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+  width: 50%;
+}
+
+p {
+  text-align: center;
+  color: #696969;
+  line-height: 10px;
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-info {
+  margin-left: 15em;
+  margin-top: 2.75em;
+  list-style-type: none;
+}
+
+.contact-info li {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 1.2em;
+ }
+
+ .left {
+   float: left;
+   width: 60%;
+ }
+
+ .right {
+   float: right;
+   width: 40%;
+ }
+
+.content, .footer {
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
+}
+
+.content {
+  margin-top: 2.75em;
+  padding-top: 2.75em;
+  padding-bottom: 2.75em;
+  border-radius: 4.1em;
+  background-color: #798892;
+
+}
+
+.clear {
+  clear: both;
+}
+
+.contact {
+  top: 0; bottom:0; left: 0; right:0;
+  margin-right: 2.75em;
+  width: 90%;
+  border-radius: 4.1em;
+
+}
+
+.footer {
+  padding-top: 2.75em;
+
+}
