@@ -4,6 +4,10 @@ body {
   font-size: 1em;
 }
 
+ul {
+    list-style-type: none;
+}
+
 h1 {
   text-align: center;
   color: #000000;
@@ -19,6 +23,17 @@ h1 {
 h4 {
   text-align: center;
   color: #696969;
+  line-height: 20px;
+  font-size: 20px;
+  font-style: bold;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+h5 {
+  text-align: center;
+  color: #fff;
   line-height: 20px;
   font-size: 20px;
   font-style: bold;
@@ -78,6 +93,7 @@ a.active {
   top: 0; bottom:0; left: 0; right:0;
   margin: auto;
   width: 50%;
+  border-radius: 4.1em;
 }
 
 p {
@@ -100,16 +116,6 @@ p {
   font-size: 1.2em;
  }
 
- .left {
-   float: left;
-   width: 60%;
- }
-
- .right {
-   float: right;
-   width: 40%;
- }
-
 .content, .footer {
   margin-left:auto;
   margin-right:auto;
@@ -117,23 +123,20 @@ p {
 }
 
 .content {
-  margin-top: 2.75em;
-  padding-top: 2.75em;
-  padding-bottom: 2.75em;
+  color: #fff;
   border-radius: 4.1em;
   background-color: #798892;
-
 }
 
 .clear {
   clear: both;
 }
 
-.contact {
-  top: 0; bottom:0; left: 0; right:0;
-  margin-right: 2.75em;
+img.contact {
   width: 90%;
   border-radius: 4.1em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
