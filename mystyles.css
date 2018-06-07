@@ -20,7 +20,7 @@ h1 {
   margin-bottom: 0.67em;
 }
 
-h4 {
+h4 , h2 {
   text-align: center;
   color: #696969;
   line-height: 20px;
@@ -116,11 +116,7 @@ p {
   font-size: 1.2em;
  }
 
-.content, .footer {
-  margin-left:auto;
-  margin-right:auto;
-  width:60%;
-}
+
 
 .content {
   color: #fff;
@@ -143,4 +139,44 @@ img.contact {
 .footer {
   padding-top: 2.75em;
 
+}
+
+.cv tr:nth-child(3n+2) {
+
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+.cv tr:nth-child(3n+0), .cv tr:nth-child(3n+1) {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1.0em;
+}
+
+.cv th {
+  border-top: none;
+}
+
+.headline {
+  text-align: center;
+  color: #696969;
+  line-height: 20px;
+  font-size: 20px;
+  font-style: bold;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  font-weight: bold;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+  font-size: 1.2em;
 }
